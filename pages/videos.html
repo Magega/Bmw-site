@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BMW Videos</title>
+	<script src="../scripts/code.js"></script>
+	<script src="../scripts/jquery-3.3.1.slim.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="../Bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="../styles/style.css">
+	<link rel="stylesheet" href="../Bootstrap/css/bootstrap.css">
+	<link rel="icon" href="../images/bmw.png">
+	<script type="text/javascript">
+		$(document).ready ( function(){
+			changeFooter(); 
+		});
+	</script>
+
+</head>
+<body>
+	<div  id="mainDiv" class="container-fluid">
+
+
+		<header>
+			<!-- header -->
+			<div class="row">
+				<div class="col">
+					<div class="div-header">
+						<h1>BMW</h1>
+						<h3>Ultimate Driving Machine</h3>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- navbar menu(#menu) -->
+			<div class="row sticky-top">
+				<div class="col">
+					<nav id="menu" class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavBar" aria-controls="mainNavBar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div class="collapse navbar-collapse" id="mainNavBar">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item">
+									<a class="nav-link" href="home.html">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="m-power.html">M-Power</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="videos.html">Videos<span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Characteristics
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="info/m4Info.html">M4</a>
+										<a class="dropdown-item" href="info/m5Info.html">M5</a>
+										<a class="dropdown-item" href="info/x5mInfo.html">X5M</a>
+										<a class="dropdown-item" href="info/x6mInfo.html">X6M</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+
+		<main>
+			<!-- title of videos -->
+			<div class="row">
+				<div class="col">
+					<nav class="navbar bg-link">
+						<span class="navbar-text">
+							<span style="font-size: 22pt; color: black; font-weight: 500;">
+								Video Collection
+							</span>
+							<br>
+							<span style="font-size: 15pt; color: black;">
+								Official videos from YouTube
+							</span>
+							<hr style="border: 0.5px solid #cccccc;">
+						</span>
+					</nav>
+				</div>
+			</div>
+
+
+			<!-- cards -->
+			<div id="mVideos" class="row">
+				<div class="col mt-3">
+					<div class="card panel panel-primary" style="width: 17rem;">
+						<iframe src="https://www.youtube.com/embed/xS7_67KFSYQ">
+						</iframe>
+						<div class="card-body">
+							<h5 class="card-title mb-0">M4</h5>
+						</div>
+						<div class="card-footer panel-title">
+							<a href="https://www.youtube.com/watch?v=xS7_67KFSYQ" class="btn btn-dark" role="button" target="_blank">See More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col mt-3">
+					<div class="card panel panel-primary" style="width: 17rem;">
+						<iframe src="https://www.youtube.com/embed/t1XmtwkpBUk">
+						</iframe>
+						<div class="card-body">
+							<h5 class="card-title mb-0">M5</h5>
+						</div>
+						<div class="card-footer panel-title">
+							<a href="https://www.youtube.com/watch?v=t1XmtwkpBUk" class="btn btn-dark" role="button" target="_blank">See More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col mt-3">
+					<div class="card panel panel-primary" style="width: 17rem;">
+						<iframe src="https://www.youtube.com/embed/GZlc2Fww9q0">
+						</iframe>
+						<div class="card-body">
+							<h5 class="card-title mb-0">X5M</h5>
+						</div>
+						<div class="card-footer panel-title">
+							<a href="https://www.youtube.com/watch?v=GZlc2Fww9q0" class="btn btn-dark" role="button" target="_blank">See More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col mt-3">
+					<div class="card panel panel-primary" style="width: 17rem;">
+						<iframe src="https://www.youtube.com/embed/dh6VXzopcW0">
+						</iframe>
+						<div class="card-body">
+							<h5 class="card-title mb-0">X6M</h5>
+						</div>
+						<div class="card-footer panel-title">
+							<a href="https://www.youtube.com/watch?v=dh6VXzopcW0" class="btn btn-dark" role="button" target="_blank">See More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+
+
+		<!-- footer -->
+		<div class="row">
+			<div class="col">
+				<br>
+				<footer id="footer" class="page-footer font-small blue pt-4">
+					<div class="footer-copyright text-center py-3">
+						© 2021 Copyright: Магега Назар
+					</div>
+				</footer>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>

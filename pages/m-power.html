@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M-Power</title>
+	<script src="../scripts/code.js"></script>
+	<script src="../scripts/jquery-3.3.1.slim.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="../Bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="../styles/style.css">
+	<link rel="stylesheet" href="../Bootstrap/css/bootstrap.css">
+	<link rel="icon" href="../images/bmw.png">
+	<script type="text/javascript">
+		$(document).ready ( function(){
+			changeFooter(); 
+		});
+	</script>
+
+</head>
+<body>
+	<div id="mainDiv" class="container-fluid">
+
+
+		<header>
+			<!-- header -->
+			<div class="row">
+				<div class="col">
+					<div class="div-header">
+						<h1>BMW</h1>
+						<h3>Ultimate Driving Machine</h3>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- navbar menu(#menu) -->
+			<div class="row sticky-top">
+				<div class="col">
+					<nav id="menu" class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavBar" aria-controls="mainNavBar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div class="collapse navbar-collapse" id="mainNavBar">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item">
+									<a class="nav-link" href="home.html">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="m-power.html">M-Power<span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="videos.html">Videos</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Characteristics
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="info/m4Info.html">M4</a>
+										<a class="dropdown-item" href="info/m5Info.html">M5</a>
+										<a class="dropdown-item" href="info/x5mInfo.html">X5M</a>
+										<a class="dropdown-item" href="info/x6mInfo.html">X6M</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+
+		<main>
+			<!-- title of images -->
+			<div class="row">
+				<div class="col">
+					<nav class="navbar bg-link">
+						<span class="navbar-text">
+							
+							<span style="font-size: 22pt; color: black; font-weight: 500;">
+								M-Power
+							</span>
+							<br>
+							<span style="font-size: 15pt; color: black;">
+								The most popular models
+							</span>
+							<hr>
+						</span>
+					</nav>
+				</div>
+			</div>
+
+			
+			
+			
+
+			<!-- cards -->
+			<div id="mCards" class="row">
+
+				<div id="m4Area" class="col mt-3">
+
+					<div class="card panel panel-primary" style="width: 17rem;">
+						<img class="card-img-top" src="../images/m4.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">M4</h5>
+							<p class="card-text">
+								With carefully engineered Carbon Fiber Reinforced Plastic components, incredibly precise handling, and exclusive M colors like Yas Marina Blue and Austin Yellow, the BMW M4 Coupe and Convertible are true evolutions of the M concept.
+							</p>
+						</div>
+						<div class="card-footer panel-title">
+							<a href="info/m4Info.html" class="btn btn-dark" role="button">Characteristics</a>
+						</div>
+					</div>
+				</div>
+
+				<div id="m5Area" class="col mt-3">
+					<div class="card panel panel-primary" style="width: 17rem;">
+						<img class="card-img-top" src="../images/m5.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">M5</h5>
+							<p class="card-text">
+								This high-performance executive sedan debuted over thirty years ago, and immediately became the benchmark of its class. Now, the BMW M5 and the sharp, sleek BMW M5 Competition Sedan set new standards, on track day and every day.
+							</p>
+						</div>
+						<div class="card-footer panel-title">
+							<a href="info/m5Info.html" class="btn btn-dark" role="button">Characteristics</a>
+						</div>
+					</div>
+				</div>
+
+				<div id="x5mArea" class="col mt-3">
+					<div class="card panel panel-primary" style="width: 17rem;">
+						<img class="card-img-top" src="../images/x5m.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">X5M</h5>
+							<p class="card-text">
+								Take the wheel of an undeniable force. The BMW X5 commands respect in every aspect, from its powerful design to its thunderous 4.4-liter V8 engine. From track to all terrain, this is one beast that the competition won’t want to cross.
+							</p>
+						</div>
+						<div class="card-footer panel-title">
+							<a href="info/x5mInfo.html" class="btn btn-dark" role="button">Characteristics</a>		
+						</div>
+					</div>
+				</div>
+
+				<div id="x6mArea" class="col mt-3">
+					<div class="card panel panel-primary" style="width: 17rem;">
+						<img class="card-img-top" src="../images/x6m.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">X6M</h5>
+							<p class="card-text">
+							Look convention in the eye, and wait for it to blink first. The BMW X6 M gives it the legendary M treatment to the most powerful Sports Activity Coupe® in the world. There’s nothing on the road quite like it – and with its bold looks, powerful engines, agile handling, and extraordinary interior, the X6 M rides comfortably in a class by itself.</p>
+						</div>
+						<div class="card-footer panel-title">
+							<a href="info/x6mInfo.html" class="btn btn-dark" role="button">Characteristics</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+
+
+
+		<!-- footer -->
+		<div class="row">
+			<div class="col">
+				<br>
+				<footer id="footer" class="page-footer font-small blue pt-4">
+					<div class="footer-copyright text-center py-3">
+						© 2021 Copyright: Магега Назар
+					</div>
+				</footer>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>

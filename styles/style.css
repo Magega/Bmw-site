@@ -1,0 +1,54 @@
+.div-header{
+	background-image: url("../images/wall.jpg");
+	color: rgb(52, 58, 64);
+	text-align: center;
+}
+div.div-header h3{
+	margin-bottom: 0;
+	padding-bottom: 30px;
+}
+div.div-header h1{
+	padding-top: 30px;
+}
+footer{
+	background-color: rgb(52, 58, 64);
+	color: white;
+}
+span.navbar-text  hr {/*полоски під заголовками*/
+	 border: 0.5px solid #cccccc;
+	 margin-bottom: 0;
+
+}
+body{/*дефолтна полоса прокручування*/
+	overflow-y: scroll; 
+}
+.card-footer{/*вигляд футера в карточок*/
+	background-color: #d9d9d9!important;
+	border-top: none!important;
+}
+.card-body, .card-footer{/*бордер всіх карточок*/
+	border: 0.5px solid #d9d9d9;
+}
+#mCards .card-body{/*one height for all cards*/
+	height: 355px;
+}
+p.text-justify{
+	text-indent: 20px;
+	padding-left: 17px;
+	padding-right: 17px;
+}
+.fixed-footer{
+	bottom: 0;
+    position: fixed;
+    width: 98%;
+}
+/*табличка*/
+th{
+	width: 50%;
+}
+/*@media (min-width:1700px) {
+	#mCards, #mVideos{
+		width: 70%;
+		margin: 0 auto;
+	}
+}*/
